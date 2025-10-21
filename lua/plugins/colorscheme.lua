@@ -1,6 +1,6 @@
 return {
-  { "projekt0n/github-nvim-theme" },
+  { "sainnhe/everforest" },
   { "LazyVim/LazyVim", opts = {
-    colorscheme = "github_dark_default",
+    colorscheme = "everforest",
   } },
 }

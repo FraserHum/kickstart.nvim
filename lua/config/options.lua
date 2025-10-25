@@ -4,3 +4,4 @@
 vim.opt.title = true
 vim.opt.titlelen = 0 -- do not shorten title
 vim.opt.titlestring = "%{fnamemodify(getcwd(), ':p:h:t')} %t%( %M%)%( (%{expand(\"%:~:h\")})%)%a - Nvim"
+vim.opt.clipboard = "unnamedplus"

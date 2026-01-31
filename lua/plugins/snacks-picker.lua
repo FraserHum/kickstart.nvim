@@ -5,11 +5,11 @@ return {
   opts = {
     picker = {
       sources = {
-        -- Explorer: show hidden and ignored files by default
         -- Toggle with H (hidden) and I (ignored) keys
         explorer = {
           hidden = true,
           ignored = true,
+          diagnostics = false,
         },
         -- Files picker: show hidden files
         -- Uses fd by default (auto-detected), falls back to rg or find

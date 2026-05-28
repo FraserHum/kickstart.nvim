@@ -9,21 +9,25 @@ return {
         explorer = {
           hidden = true,
           ignored = true,
+          follow = true,
           diagnostics = false,
         },
         -- Files picker: show hidden files
         -- Uses fd by default (auto-detected), falls back to rg or find
         files = {
           hidden = true,
+          follow = true,
         },
         -- Grep: search hidden files
         -- Uses rg (ripgrep) by default
         grep = {
           hidden = true,
+          follow = true,
         },
         -- Grep word under cursor
         grep_word = {
           hidden = true,
+          follow = true,
         },
       },
     },
